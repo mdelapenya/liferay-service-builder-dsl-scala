@@ -1,14 +1,14 @@
 name := "undefined"
 version := "1.0.0-SNAPSHOT"
 organization := "com.github.mlangc"
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.2"
 
 libraryDependencies += "com.beachape" %% "enumeratum" % "1.5.2"
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.5.0"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test" 
 libraryDependencies += "com.softwaremill.macwire" %% "macros" % "2.2.5" % "provided"
+libraryDependencies += "com.lihaoyi" % "ammonite" % "0.8.4" % "test" cross CrossVersion.full
 
-libraryDependencies += "com.lihaoyi" % "ammonite" % "0.8.2" % "test" cross CrossVersion.full
 initialCommands in (Test, console) := """ammonite.Main().run()"""
 
 scalacOptions := Seq("-encoding", "utf8", "-feature", "-deprecation", "-optimise", "-target:jvm-1.8", "-Ywarn-unused", "-Ywarn-dead-code", "-Ywarn-unused-import")
