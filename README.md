@@ -1,6 +1,7 @@
-# scala-boilerplate
+# Liferay Service Builder DSL
 
-Boilerplate for a typical SBT Scala project, forked from [https://github.com/mlangc/scala-boilerplate](https://github.com/mlangc/scala-boilerplate)
+DSL Scala project for Service Builder, initially forked from this Scala Boilerplate
+[https://github.com/mlangc/scala-boilerplate](https://github.com/mlangc/scala-boilerplate)
 
 ## Usage
 
