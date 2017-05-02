@@ -14,6 +14,8 @@ libraryDependencies += "com.lihaoyi" % "ammonite" % "0.8.4" % "test" cross Cross
 
 initialCommands in (Test, console) := """ammonite.Main().run()"""
 
+logBuffered in Test := false
+
 scalacOptions := Seq("-encoding", "utf8", "-feature", "-deprecation", "-optimise", "-target:jvm-1.8", "-Ywarn-unused", "-Ywarn-dead-code", "-Ywarn-unused-import")
 
 updateOptions := updateOptions.value.withCachedResolution(true)
