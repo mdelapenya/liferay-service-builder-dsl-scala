@@ -1,6 +1,7 @@
-name := "undefined"
+organization := "com.liferay"
+name := "service-builder-dsl"
 version := "1.0.0-SNAPSHOT"
-organization := "com.github.mlangc"
+
 scalaVersion := "2.12.2"
 
 libraryDependencies += "com.beachape" %% "enumeratum" % "1.5.2"
