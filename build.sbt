@@ -9,6 +9,7 @@ libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.5.0"
 
 libraryDependencies += "com.softwaremill.macwire" %% "macros" % "2.2.5" % "provided"
 
+libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "1.0.6"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test" 
 libraryDependencies += "com.lihaoyi" % "ammonite" % "0.8.4" % "test" cross CrossVersion.full
 
